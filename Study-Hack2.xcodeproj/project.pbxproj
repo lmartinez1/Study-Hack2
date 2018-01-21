@@ -16,6 +16,10 @@
 		895EF80C20148174008336CF /* Study_Hack2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF80B20148174008336CF /* Study_Hack2UITests.swift */; };
 		895EF81C2014B27D008336CF /* viewcontroller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF81B2014B27D008336CF /* viewcontroller2.swift */; };
 		895EF81E2014BD20008336CF /* viewcontroller3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF81D2014BD20008336CF /* viewcontroller3.swift */; };
+		895EF8202014D688008336CF /* viewcontroller4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF81F2014D688008336CF /* viewcontroller4.swift */; };
+		895EF8262014E671008336CF /* pracexam1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 895EF8252014E671008336CF /* pracexam1.pdf */; };
+		895EF8282014E6E7008336CF /* viewcontroller5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF8272014E6E7008336CF /* viewcontroller5.swift */; };
+		895EF82A201519E0008336CF /* viewcontroller6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF829201519E0008336CF /* viewcontroller6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		895EF80D20148174008336CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		895EF81B2014B27D008336CF /* viewcontroller2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller2.swift; sourceTree = "<group>"; };
 		895EF81D2014BD20008336CF /* viewcontroller3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller3.swift; sourceTree = "<group>"; };
+		895EF81F2014D688008336CF /* viewcontroller4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller4.swift; sourceTree = "<group>"; };
+		895EF8252014E671008336CF /* pracexam1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pracexam1.pdf; sourceTree = "<group>"; };
+		895EF8272014E6E7008336CF /* viewcontroller5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller5.swift; sourceTree = "<group>"; };
+		895EF829201519E0008336CF /* viewcontroller6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 		895EF7EA20148174008336CF /* Study-Hack2 */ = {
 			isa = PBXGroup;
 			children = (
+				895EF829201519E0008336CF /* viewcontroller6.swift */,
+				895EF8272014E6E7008336CF /* viewcontroller5.swift */,
+				895EF81F2014D688008336CF /* viewcontroller4.swift */,
 				895EF81D2014BD20008336CF /* viewcontroller3.swift */,
 				895EF81B2014B27D008336CF /* viewcontroller2.swift */,
 				895EF7EB20148174008336CF /* AppDelegate.swift */,
@@ -109,6 +120,7 @@
 				895EF7F220148174008336CF /* Assets.xcassets */,
 				895EF7F420148174008336CF /* LaunchScreen.storyboard */,
 				895EF7F720148174008336CF /* Info.plist */,
+				895EF8252014E671008336CF /* pracexam1.pdf */,
 			);
 			path = "Study-Hack2";
 			sourceTree = "<group>";
@@ -239,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				895EF7F620148174008336CF /* LaunchScreen.storyboard in Resources */,
+				895EF8262014E671008336CF /* pracexam1.pdf in Resources */,
 				895EF7F320148174008336CF /* Assets.xcassets in Resources */,
 				895EF7F120148174008336CF /* Main.storyboard in Resources */,
 			);
@@ -265,9 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895EF8202014D688008336CF /* viewcontroller4.swift in Sources */,
 				895EF81C2014B27D008336CF /* viewcontroller2.swift in Sources */,
+				895EF8282014E6E7008336CF /* viewcontroller5.swift in Sources */,
 				895EF7EE20148174008336CF /* ViewController.swift in Sources */,
 				895EF81E2014BD20008336CF /* viewcontroller3.swift in Sources */,
+				895EF82A201519E0008336CF /* viewcontroller6.swift in Sources */,
 				895EF7EC20148174008336CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

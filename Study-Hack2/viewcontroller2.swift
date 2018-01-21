@@ -10,6 +10,7 @@ import UIKit
 
 class viewcontroller2: UIViewController {
     
+    @IBOutlet var courseButton: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,11 +18,20 @@ class viewcontroller2: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+         // Dispose of any resources that can be recreated.
+    }
+
+    @IBAction func handleSelection(_ sender: UIButton) {
+        courseButton.forEach { (button) in
+            UIView.animate(withDuration: 0.3, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
     }
     
-    @IBAction func leftSwipe(_ sender: UISwipeGestureRecognizer){
-        
+    @IBAction func courseTapped(_ sender: UIButton) {
     }
+    
 }
 
