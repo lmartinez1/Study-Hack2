@@ -14,6 +14,7 @@
 		895EF7F620148174008336CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895EF7F420148174008336CF /* LaunchScreen.storyboard */; };
 		895EF80120148174008336CF /* Study_Hack2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF80020148174008336CF /* Study_Hack2Tests.swift */; };
 		895EF80C20148174008336CF /* Study_Hack2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF80B20148174008336CF /* Study_Hack2UITests.swift */; };
+		895EF81C2014B27D008336CF /* viewcontroller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EF81B2014B27D008336CF /* viewcontroller2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		895EF80720148174008336CF /* Study-Hack2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study-Hack2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895EF80B20148174008336CF /* Study_Hack2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_Hack2UITests.swift; sourceTree = "<group>"; };
 		895EF80D20148174008336CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895EF81B2014B27D008336CF /* viewcontroller2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		895EF7EA20148174008336CF /* Study-Hack2 */ = {
 			isa = PBXGroup;
 			children = (
+				895EF81B2014B27D008336CF /* viewcontroller2.swift */,
 				895EF7EB20148174008336CF /* AppDelegate.swift */,
 				895EF7ED20148174008336CF /* ViewController.swift */,
 				895EF7EF20148174008336CF /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895EF81C2014B27D008336CF /* viewcontroller2.swift in Sources */,
 				895EF7EE20148174008336CF /* ViewController.swift in Sources */,
 				895EF7EC20148174008336CF /* AppDelegate.swift in Sources */,
 			);
