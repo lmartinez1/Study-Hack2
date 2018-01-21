@@ -12,7 +12,6 @@ class viewcontroller2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.setNavigationBarHidden(true, animated: false)
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -21,6 +20,8 @@ class viewcontroller2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    @IBAction func leftSwipe(_ sender: UISwipeGestureRecognizer){
+        
+    }
 }
 

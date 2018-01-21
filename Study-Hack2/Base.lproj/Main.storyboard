@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="2031.2" y="-613.04347826086962"/>
         </scene>
-        <!--View Controller-->
+        <!--Viewcontroller3-->
         <scene sceneID="YZB-Dv-zZm">
             <objects>
-                <viewController id="kKY-no-op4" sceneMemberID="viewController">
+                <viewController id="kKY-no-op4" customClass="viewcontroller3" customModule="Study_Hack2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JWG-ec-sM5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,13 +134,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="85b-zM-UUO"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="T8J-ij-BWP" appends="YES" id="neZ-44-6Lv"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlZ-iq-emx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="T8J-ij-BWP"/>
+                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="right" id="Pt6-5B-HU6">
+                    <connections>
+                        <action selector="right:" destination="kKY-no-op4" id="OZM-GC-pPI"/>
+                        <segue destination="463-GC-iOS" kind="show" id="q9D-Se-Ugh"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2880.8000000000002" y="-577.06146926536735"/>
         </scene>
@@ -219,4 +221,7 @@
             <point key="canvasLocation" x="457" y="-685"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="q9D-Se-Ugh"/>
+    </inferredMetricsTieBreakers>
 </document>
